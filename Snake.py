@@ -32,7 +32,6 @@ pygame.display.update()
 current_rotation = 0
 def draw_snake(snake_length):
     for x in snake_length:
-        #pygame.draw.rect(window, 'darkgreen',[x[0]*30*i,x[1],25,25])
         window.blit(body, [x[0], x[1]])
 def gameloop():
     global food_list_x
